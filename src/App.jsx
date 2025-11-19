@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Editor from './components/Editor'
 import CTA from './components/CTA'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Editor />
         <CTA />
       </main>
       <footer className="border-t border-white/10 bg-slate-950/60">
@@ -17,6 +19,7 @@ function App() {
           <p>© {new Date().getFullYear()} Vivid — Instant Video Creation & Delivery</p>
           <div className="flex items-center gap-4">
             <a href="#features" className="hover:text-white">Features</a>
+            <a href="#editor" className="hover:text-white">Instant Editor</a>
             <a href="#book" className="hover:text-white">Book</a>
             <a href="/test" className="hover:text-white">System Test</a>
           </div>
